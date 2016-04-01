@@ -1,0 +1,7 @@
+- hosts: workbench-servers
+  user: ubuntu
+  sudo: yes
+
+  tasks: 
+    - name: install cuda
+      
